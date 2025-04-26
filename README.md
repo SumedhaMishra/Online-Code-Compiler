@@ -34,9 +34,9 @@ The Online Code Compiler is a web application that allows users to write, compil
 ### 6. Timeline
 | Phase                       | Duration       |
 |-----------------------------|----------------|
-| Idea Development             | 1 week         |
-| UI Design                    | 1 week         |
-| Frontend Development         | 2 weeks        |
+| Idea Development             | 1 week         |               ✓
+| UI Design                    | 1 week         |               ✓
+| Frontend Development         | 2 weeks        |               ✓
 | Backend Development          | 2 weeks        |
 | Testing and Feedback         | 1 week         |
 | Final Adjustments            | 1 week         |
@@ -57,5 +57,7 @@ The Online Code Compiler is a web application that allows users to write, compil
 - You meet the project deadlines.
 
 ### 10. Potential Challenges and How to Address Them
-- **Technical Difficulties**: Setting up React environment in the system. Deprecation of the create-react-app feature.
+- **Technical Difficulties**: Setting up React environment in the system.
+                              Deprecation of the create-react-app feature.
+                              The use of react strict mode.
 - **Time Management**: 
