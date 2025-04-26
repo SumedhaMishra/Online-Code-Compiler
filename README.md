@@ -34,9 +34,9 @@ The Online Code Compiler is a web application that allows users to write, compil
 ### 6. Timeline
 | Phase                       | Duration       |
 |-----------------------------|----------------|
-| Idea Development             | 1 week         |               ✓
-| UI Design                    | 1 week         |               ✓
-| Frontend Development         | 2 weeks        |               ✓
+| Idea Development             | 1 week         |✓
+| UI Design                    | 1 week         |✓
+| Frontend Development         | 2 weeks        |✓
 | Backend Development          | 2 weeks        |
 | Testing and Feedback         | 1 week         |
 | Final Adjustments            | 1 week         |
