@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/embed.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Code Compiler</title>
+    
+    <!-- Core CSS for CodeMirror -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/lib/codemirror.css" />
+
+    <!-- All themes-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/3024-day.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/3024-night.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/material.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/duotone-dark.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/duotone-light.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/eclipse.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/elegant.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/icecoder.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/neo.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/theme/panda-syntax.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@chakra-ui/react@3.15.1/dist/chakra-ui.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- Load CodeMirror core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/lib/codemirror.js"></script>
+
+    <!-- ChakraUI CDN embed -->
+    <script src="https://cdn.jsdelivr.net/npm/@chakra-ui/react@3.15.1/dist/chakra-ui.js"></script>
+
+    <!-- Axios CDN embed -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <!-- Load modes for all supported languages -->
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/mode/javascript/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/mode/python/python.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/mode/clike/clike.js"></script> <!-- For C, C++, Java -->
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/mode/perl/perl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.13/mode/php/php.js"></script>
+    
+    <!-- Assign CodeMirror to window object for global access -->
+    <script>
+      window.CodeMirror = window.CodeMirror || (function(){ return CodeMirror; })();
+    </script>
+    
+    <!-- Your React app -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
