@@ -37,7 +37,7 @@ The Online Code Compiler is a web application that allows users to write, compil
 | Idea Development             | 1 week         |✓
 | UI Design                    | 1 week         |✓
 | Frontend Development         | 2 weeks        |✓
-| Backend Development          | 2 weeks        |
+| Backend Development          | 2 weeks        |✓
 | Testing and Feedback         | 1 week         |
 | Final Adjustments            | 1 week         |
 | **Total Duration**          | **8 weeks**    |
@@ -48,8 +48,8 @@ The Online Code Compiler is a web application that allows users to write, compil
 - (summary of our development process and what we've learned.)
 
 ### 8. Initial Budget Estimate
-- **Hosting**: Free services like GitHub Pages or Heroku for deployment.
-- **Tools**: Use free code editors (VSCode).
+- **Hosting**: Free services like GitHub Pages and Vercel/Render for deployment.
+- **Tools**: Use free code editors (VSCode). 
 
 ### 9. Success Criteria
 - The application can successfully compile and run code in multiple languages.
